@@ -16,7 +16,7 @@
 
 -module(emqx_extension_hook_driver).
 
--include_lib("emqx/include/logger.hrl").
+-include("logger.hrl").
 
 -logger_header("[ExHook Driver]").
 
